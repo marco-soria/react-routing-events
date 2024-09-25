@@ -16,7 +16,7 @@ import NewsletterPage, { action as newsletterAction } from "./pages/Newsletter";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "",
     element: <RootLayout />,
     errorElement: <ErrorPage />,
     children: [
